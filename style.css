@@ -1,8 +1,27 @@
 body {
     height: 125vh;  
-    margin-top: 80px;  
-    padding: 30px;  
-    background-size: cover;  
+    margin: 0;  
+    padding: 0;  
+    /* background-image: url(images/background.jpg); */
     font-family: sans-serif;  
+
+}
+.evgo-heading {
+
+    display: inline;
+}
+
+header {
+
+    display: inline;
+    margin: 5%;
+    padding: 2%;
+
+}
+li {
+    display: inline;
+    list-style-type: none;
+    
+
 
 }
