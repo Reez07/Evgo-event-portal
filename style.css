@@ -40,9 +40,11 @@ li {
 }
 
 .button_set {
+
     margin: auto;
     width: 60%;
     padding: 10px;
+    display: flex;
     align-items: center;
     
 }
@@ -57,7 +59,7 @@ button{
 	background-color: transparent;
 	border-radius: 4px;
 	cursor: pointer;
-    margin: 5%;
+    margin: auto;
     
 
 }
@@ -65,4 +67,10 @@ button:hover{
 background-color: #FFF;
 color: blue;
 
+}
+
+.discover{
+
+    background-color: #000000;
+    opacity: 0.5;
 }
