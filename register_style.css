@@ -1,0 +1,62 @@
+body {
+    height: 60vh;
+  margin: 0;
+  padding: 0;
+ background-color: #161E2F;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 1920px 1200px;
+   font-family: sans-serif;
+}
+
+
+header {
+    display: inline;
+    margin: 5%;
+    padding: 2%;
+
+
+  }
+
+.title{
+    
+    display: flex;
+    justify-content: space-around;
+}  
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    min-height: 8vh;
+    align-items: center;    
+}
+.logo{
+    color: rgb(255, 254, 254);
+    font-size: 30px;
+    padding-right: 40vh;
+}
+
+
+.nav-link{
+    display: flex;
+width: 30%;
+justify-content: space-around;
+
+
+}
+
+.nav-link a{
+
+    text-decoration: none;
+    color: white;
+}
+
+
+.evgo-heading {
+  display: inline;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+}
