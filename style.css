@@ -1,23 +1,53 @@
 body {
-  height: 125vh;
   margin: 0;
   padding: 0;
   background-image: url(images/background.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 1920px 1200px;
-
-  font-family: sans-serif;
+   font-family: sans-serif;
 }
+
+
+header {
+    display: inline;
+    margin: 5%;
+    padding: 2%;
+
+
+
+  }
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    min-height: 8vh;
+    align-items: center;    
+}
+.logo{
+    color: rgb(230, 230, 230);
+    font-size: 22px;
+}
+
+.nav-link{
+    display: flex;
+width: 30%;
+justify-content: space-around;
+
+
+}
+
+.nav-link a{
+
+    text-decoration: none;
+    color: white;
+}
+
+
 .evgo-heading {
   display: inline;
 }
 
-header {
-  display: inline;
-  margin: 5%;
-  padding: 2%;
-}
 li {
   display: inline;
   list-style-type: none;
@@ -26,7 +56,7 @@ li {
 .main-event {
   margin: auto;
   width: 60%;
-  height: 20%;
+  height: 80%;
   display: flex;
   align-items: center;
 
