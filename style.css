@@ -35,8 +35,7 @@ li {
   margin: auto;
 }
 
-.button-set {
-    background-color: white;
+.button_set {
     margin: auto;
     width: 60%;
     padding: 10px;
