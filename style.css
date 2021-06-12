@@ -1,4 +1,5 @@
 body {
+    height: 60vh;
   margin: 0;
   padding: 0;
   background-image: url(images/background.jpg);
@@ -26,7 +27,7 @@ nav{
 }
 .logo{
     color: rgb(230, 230, 230);
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .nav-link{
